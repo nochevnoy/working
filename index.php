@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Second test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="select.js"></script>
@@ -27,9 +26,12 @@
     </select><br><br>
 
     <p>Стоимость</p>
-    <input id= "inp" maxlength="25" size="40" value="0" disabled>
+    <input id="inp" maxlength="25" size="40" value="0" disabled>
+    <input type="button" onclick="add_new()" value="Посчитать"><br>
+    <input id="1st" type="text" name="user_name" placeholder="YOUR NAME" hidden/><br>
+    <input id="2nd" type="email" name="user_email" placeholder="YOUR EMAIL" hidden/><br>
+    <input id="3rd" type="tel" name="user_tele" placeholder="YOUR TELE" hidden/><br>
+    <input id="4th" type="submit" value="Отправить" hidden>
     </form>
-    <button onclick="add_new()">Посчитать</button>
-    <div id="additional"></div>
 </body>
 </html>

@@ -1,12 +1,8 @@
     function add_new() {
-        paste = '<form action="send.php" method="post">\
-                 <input type="text" name="user_name" placeholder="YOUR NAME"/><br>\
-                 <input type="email" name="user_email" placeholder="YOUR EMAIL"/><br>\
-                 <input type="tel" name="user_tele" placeholder="YOUR TELE"/><br>\
-                 <input type="submit" value="Отправить">\
-                 </form>'
-        d1 = document.getElementById('additional');
-        d1.insertAdjacentHTML('afterbegin', paste);
+        document.getElementById('1st').hidden = false;
+        document.getElementById('2nd').hidden = false;
+        document.getElementById('3rd').hidden = false;
+        document.getElementById('4th').hidden = false;
     };
 
 
