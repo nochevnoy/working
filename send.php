@@ -30,7 +30,10 @@
                 Email: .$user_email.\n
                 Телефон: .$user_tele.\n";
     
-    mail($to, $subject, $message, $headers);
-
+    if (mail($to, $subject, $message, $headers)) {
+        echo "сообщение успешно отправлено";
+    } else {
+        echo "при отправке сообщения возникли ошибки";
+    }
 
 ?>
