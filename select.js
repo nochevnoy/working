@@ -1,10 +1,9 @@
-    function add_new() {
+    function show_add() {
         document.getElementById('1st').hidden = false;
         document.getElementById('2nd').hidden = false;
         document.getElementById('3rd').hidden = false;
         document.getElementById('4th').hidden = false;
     };
-
 
     function summ() {
         var abs = +0;
