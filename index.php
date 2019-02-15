@@ -11,7 +11,7 @@
 <body>
     <form action="send.php" method="post">
     <p>Наименование</p>    
-    <select id="f" name="price" name="first_choose" onchange="summ()">
+    <select id="f" name="first_choose" onchange="summ()">
         <option disabled selected>-</option>
         <option value="1500">Мотоцикл – 1500 руб.</option>
         <option value="1350">Автомобиль – 1350 руб.</option>
@@ -20,7 +20,7 @@
     </select>
 
     <p>Гостиница</p>    
-    <select id="s" name="house" name="second_choose" onchange="summ()">
+    <select id="s" name="second_choose" onchange="summ()">
         <option disabled selected>-</option>
         <option value="2500">Да – 2500 руб.</option>
         <option value="0">Нет – 0 руб.</option> 

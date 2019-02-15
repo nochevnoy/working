@@ -13,6 +13,8 @@
     echo $user_name;
     echo "<br>";
     echo $user_email;
+    echo "<br>";
+    echo $user_tele;
 
 
 ?>
