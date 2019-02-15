@@ -1,6 +1,10 @@
     function add_new() {
+        paste = '<input type="text" placeholder="YOUR NAME"/><br>\
+                 <input type="email" placeholder="YOUR EMAIL"/><br>\
+                 <input type="tel" placeholder="YOUR TELE"/><br>\
+                 <input type="button" id="send_email" value="Отправить" />'
         d1 = document.getElementById('additional');
-        d1.insertAdjacentHTML('afterbegin', '<input type="text" placeholder="YOUR NAME"/><br><input type="email" placeholder="YOUR EMAIL"/><br><input type="tel" placeholder="YOUR TELE"/><br><input type="button" id="send_email" value="Отправить" />');
+        d1.insertAdjacentHTML('afterbegin', paste);
     };
 
 
