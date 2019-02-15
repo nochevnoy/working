@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <form>
+    <form action=>
     <p>Наименование</p>    
     <select id="f" name="price" name="first_choose" onchange="summ()">
         <option disabled selected>-</option>
