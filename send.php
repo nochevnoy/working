@@ -6,4 +6,13 @@
     $user_tele = $_POST['user_tele'];
 
 
+    echo $first_choose;
+    echo "<br>";
+    echo $second_choose;
+    echo "<br>";
+    echo $user_name;
+    echo "<br>";
+    echo $user_email;
+
+
 ?>

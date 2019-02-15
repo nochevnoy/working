@@ -3,7 +3,7 @@
                  <input type="text" name="user_name" placeholder="YOUR NAME"/><br>\
                  <input type="email" name="user_email" placeholder="YOUR EMAIL"/><br>\
                  <input type="tel" name="user_tele" placeholder="YOUR TELE"/><br>\
-                 <input type="button" id="send_email" value="Отправить" />\
+                 <input type="submit" value="Отправить">\
                  </form>'
         d1 = document.getElementById('additional');
         d1.insertAdjacentHTML('afterbegin', paste);
